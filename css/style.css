@@ -1,0 +1,140 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+    
+:root{
+    --color-primario:white;
+    --color-segundario:rgba(75, 70, 70, 0.342);
+}
+.menu{
+    display: flex;
+   padding-bottom: 328px;
+   background: url(/img/▷\ 100\ Fondos\ De\ Lluvia\ ¡Hermosas!\ _\ Fondos\ de\ Pantalla.gif) ;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.container1{
+    padding-right: 6px;
+    padding-top: 210px;
+    padding-left: 400px;
+
+
+}
+.container{
+    padding-top: 158px; 
+    margin-left: 20px;
+}
+.img{
+    width:500px;
+    height:500px;
+    border-radius:250px;
+}
+.titulo{
+    color: var(--color-primario);
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+h2{
+    color: var(--color-primario);
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
+.boton1{
+    display: block;
+    width: 170px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 750;
+    padding: 4px  ;
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid var(--color-segundario);
+    background-color: var(--color-primario);
+    text-align: center;
+    position: relative;
+    overflow: visible;
+    white-space: nowrap;
+    padding-left: 50px;
+
+}
+.img2{
+    width: 40px;
+    height: 40px;
+    border-radius:20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+    vertical-align: middle;
+    
+}
+.boton2{
+    display: block;
+    width: 170px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 750;
+    padding: 4px  ;
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid var(--color-segundario);
+    background-color: var(--color-primario);
+    text-align: center;
+    position: relative;
+    overflow: visible;
+    white-space: nowrap;
+    padding-left: 50px;
+}
+.img3{
+    width: 40px;
+    height: 40px;
+    border-radius:20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+    vertical-align: middle;
+
+}
+.boton3{
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 4px 75px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid var(--color-segundario);
+    justify-content: center;
+    background-color: var(--color-primario);
+    white-space: nowrap;
+
+}
+p{
+    color: var(--color-primario);
+}
+hr{
+    width: 250px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 0;
+
+}
